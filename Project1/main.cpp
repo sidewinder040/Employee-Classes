@@ -11,6 +11,7 @@ int main()
 
     Employee emp(1, "Mark Crouch", "QC");
     emp.OutputEmployeeDetails();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

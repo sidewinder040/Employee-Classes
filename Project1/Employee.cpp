@@ -4,7 +4,7 @@ Employee::Employee::Employee(int id, std::string name, std::string department)
 {
 	_EmployeeId = id;
 	_EmployeeName = name;
-	_EmployeeDepartment = department;
+	_EmployeeDepartment.SetDepartmentName(department);
 }
 
 Employee::Employee::~Employee()
@@ -34,12 +34,12 @@ std::string Employee::Employee::GetEmployeeName()
 
 void Employee::Employee::SetEmployeeDepartment(std::string department)
 {
-	_EmployeeDepartment = department;
+	_EmployeeDepartment.SetDepartmentName(department);
 }
 
 std::string Employee::Employee::GetEmployeeDepartment()
 {
-	return _EmployeeDepartment;
+	return _EmployeeDepartment.GetDepartmentName();
 }
 
 void Employee::Employee::OutputEmployeeDetails()
@@ -48,5 +48,5 @@ void Employee::Employee::OutputEmployeeDetails()
 	std::cout << "EMPLOYEES DETAILS\n";
 	std::cout << "ID:\t\t" << _EmployeeId << std::endl;
 	std::cout << "Name:\t\t" << _EmployeeName << std::endl;
-	std::cout << "Department:\t" << _EmployeeDepartment << std::endl;
+	std::cout << "Department:\t" << _EmployeeDepartment.GetDepartmentName() << std::endl;
 }

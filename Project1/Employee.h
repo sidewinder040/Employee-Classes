@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include "Department.h"
 
 
 class Employee
@@ -26,7 +27,7 @@ public:
 private:
 	int			_EmployeeId = 0;
 	std::string	_EmployeeName;
-	std::string _EmployeeDepartment;
+	Department  _EmployeeDepartment;
 };
 
 //Employee::Employee()

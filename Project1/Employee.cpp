@@ -48,5 +48,7 @@ void Employee::Employee::OutputEmployeeDetails()
 	std::cout << "EMPLOYEES DETAILS\n";
 	std::cout << "ID:\t\t" << _EmployeeId << std::endl;
 	std::cout << "Name:\t\t" << _EmployeeName << std::endl;
-	std::cout << "Department:\t" << _EmployeeDepartment.GetDepartmentName() << std::endl;
+	std::cout << "Department:\t" << _EmployeeDepartment.GetDepartmentName() 
+			  << std::endl
+			  << std::endl;
 }

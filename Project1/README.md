@@ -7,4 +7,4 @@ I then went down the proverbial 'Rabbit Hole' creating an Employee class, then a
 a Department class. Using VS Code & Vim to edit and GCC on Linux (Debian), I kept
 compile errors saying the Employee 'Department' type wasn't recognised.
 
-Trying this on Visual Studio now - Just for leaning & Covid-19 lockdown fun :)
+Trying this on Visual Studio now - Just for learning & Covid-19 lockdown fun :)
